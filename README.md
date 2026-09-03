@@ -66,9 +66,6 @@ dotnet build -c Release -p:SptPath="C:\Path\To\SPT"
 
 `SptPath` is the folder containing `BepInEx\` and `EscapeFromTarkov_Data\`. The DLL is copied into `BepInEx\plugins\QuickAim\` automatically.
 
-## AI assistance disclosure
-
-This port was produced with substantial AI assistance. Every game type and member used was verified against the installed `Assembly-CSharp.dll` rather than guessed — including confirming that `IsMountedState` and `IsBipodUsed` exist as public properties on `ProceduralWeaponAnimation`, which is what allowed the reflection to be removed.
 
 ## License
 
